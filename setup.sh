@@ -30,7 +30,7 @@ case "$distro_type" in
         ;;
 esac
 
-Retrieve commands which were uploaded from custom data and create shell script
+# Retrieve commands which were uploaded from custom data and create shell script
 mkdir -p /root/scripts
 cat /var/lib/cloud/instance/user-data.txt > "/root/scripts/keyVault.sh"
 
